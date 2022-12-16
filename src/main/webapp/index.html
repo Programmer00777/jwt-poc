@@ -2,9 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>JWT POC CodeLib</title>
+
+    <!-- Content-Security-Policy to harden token exfiltration -->
+    <!-- https://developers.google.com/web/fundamentals/security/csp/ -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src https://maxcdn.bootstrapcdn.com; font-src https://maxcdn.bootstrapcdn.com; object-src 'none'">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Load custom code -->
+    <script src="js/app.js"></script>
 </head>
 <body>
-
+    <div id="infoZone" role="alert"></div>
+    <form>
+        <div class="form-group">
+            <label for="login">Login:</label>
+            <input id="login" type="text" class="form-control" value="Johnson" maxlength="10"><br>
+        </div>
+        <button id="authAction" type="button" class="btn btn-success">Get token</button>
+        <button id="valAction" type="button" class="btn btn-success">Verify token</button>
+        <button id="revokeAction" type="button" class="btn btn-warning">Revoke token</button>
+    </form>
 </body>
 </html>

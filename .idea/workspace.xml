@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5ad11d4-573f-44a7-be65-d605bb32e587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/conf/issuer-id.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/conf/key-ciphering.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/conf/key-hmac.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/conf/tls-config.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codelib/jwt/constant/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codelib/jwt/crypto/TokenCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codelib/jwt/management/TokenRevoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codelib/jwt/service/TokenServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db_creation.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/conf/issuer-id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conf/issuer-id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/conf/key-ciphering.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conf/key-ciphering.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/conf/key-hmac.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conf/key-hmac.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db_creation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db_creation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +47,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/sergeychernikov/Documents/Documents/Development/Intellij IDEA Workspace/jwt-poc/src/main/webapp/js"
+    "last_opened_file_path": "/Users/sergeychernikov/Documents/Documents/Development/Intellij IDEA Workspace/jwt-poc/src/main/webapp/js",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671180879386</updated>
-      <workItem from="1671180881760" duration="2320000" />
+      <workItem from="1671180881760" duration="4964000" />
     </task>
     <servers />
   </component>

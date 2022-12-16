@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS revoked_token(jwt_token_digest VARCHAR(255) PRIMARY KEY, revocation_date TIMESTAMP DEFAULT NOW());
